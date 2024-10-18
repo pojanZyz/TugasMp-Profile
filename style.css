@@ -12,7 +12,6 @@ header, nav{
     background-color: white;
     color: black;
     text-align: center;
-    position: fixed;
     min-width: 100vw;
 }
 
@@ -38,6 +37,7 @@ nav {
     font-size: 1rem;
     display: flex;
     justify-content: space-evenly;
+    position: fixed;
 }
 
 .hoby{
