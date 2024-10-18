@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+header, nav{
+    background-color: white;
+    color: black;
+    text-align: center;
+    position: fixed;
+    min-width: 100vw;
+}
+
+header h1{
+    padding: .6rem;
+    text-shadow: 0px 0px 10px ;
+}
+
+nav a{
+    color: black;
+    text-shadow: 0px 0px 10px;
+    border-radius: 10px;
+    padding: .5rem;
+    transition: color .5s , text-shadow .5s ;
+}
+
+nav a:hover{
+    color: crimson;
+    text-shadow: 0px 0px 10px;
+    transition: color .5s, text-shadow .5s ;
+}
+
+nav {
+    padding: .5rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hoby{
+    min-height: 85vh;
+}
+
+.container{
+    color: white;
+    padding-top: 8rem;
+    text-align: center;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+.text p{
+    margin-top: 20px;
+    width: 80vw;
+}
+
+.learn{
+    color: white;
+    min-height: 85vh;
+}
+
+.containerLearn{
+    text-align: center;
+}
+
+.food{
+    color: white;
+    min-height: 105vh;
+}
